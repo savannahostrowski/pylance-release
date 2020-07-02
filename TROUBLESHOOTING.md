@@ -47,6 +47,10 @@ Note that if you are coming to Pylance from using the Microsoft Python Language 
 
 To use Pylance, you will need to be using VS Code version 1.46.0 or above.
 
+### I've declined the prompt to make Pylance my default language server and now I cannot activate
+
+If you've accidentally decline the prompt in VS Code to make Pylance your default language server, you can manually add `python.languageServer: "Pylance"` to your settings.json to activate. The setting will currently look unsupported (with a yellow squiggle) but it will work.
+
 ## Filing an issue
 
 When filing an issue, make sure you do the following:
